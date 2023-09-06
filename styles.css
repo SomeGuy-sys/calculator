@@ -31,11 +31,14 @@ button{
     display: flex;
     margin-top: 20px;
 }
-#clear-btn, equals-btn{
+#clear-btn, #equals-btn{
     flex: 1;
     font-size: 24px;
     padding: 15px 0;
     margin:5px;
+}
+#clear-btn:hover, #equals-btn:hover {
+    background-color: #f4f4f4;  /* Hover effect */
 }
 button:hover {
     background-color: #f4f4f4;
